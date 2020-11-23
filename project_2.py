@@ -7,8 +7,6 @@ X_train = np.genfromtxt(sys.argv[1], delimiter=",")
 y_train = np.genfromtxt(sys.argv[2])
 X_test = np.genfromtxt(sys.argv[3], delimiter=",")
 
-#https://github.com/emedinac/CSMM.102x_Machine_Learning__edX/blob/master/Project2/hw2_classification.py
-
 ## can make more functions if required
 def Countclasses(y_train): # just a counter per class
     Prior = []
