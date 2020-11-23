@@ -19,8 +19,7 @@ def part2():
         indices.append(int(ind))
         sigma2 = sigma2 + Xtest[ind-1,:-1][np.newaxis].T.dot(Xtest[ind-1,:-1][np.newaxis])
     return indices 
-# might be right 
-# https://github.com/hjk612/Columbia-Machine-Learning-Edx/blob/master/Project%203/hw1_regression.py
+
 ## Solution for Part 2
 def part2(y_train,X_train, X_test):
     d = np.shape(X_train)[1]
