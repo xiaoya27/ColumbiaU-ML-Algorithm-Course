@@ -24,8 +24,7 @@ def KMeans(X):
             centroids[i,:] = (X[c_i==i]).sum(0) / (c_i==i).sum()
         np.savetxt("centroids-"+str(it+1)+".csv", centroids, delimiter=",") # write output to file
 
-        
-#https://github.com/hjk612/Columbia-Machine-Learning-Edx/blob/master/Project%209/hw3_clustering.py        
+             
 def EMGMM(data):
     
     n_rows = data.shape[0]
